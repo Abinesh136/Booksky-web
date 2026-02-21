@@ -1,0 +1,87 @@
+.header h1{
+    background-color:pink;
+    border-top-left-radius: 10px;
+    border-top-right-radius:10px ;
+    padding: 10px;
+}
+#add-bnt{
+    background-color: pink;
+    color: black;
+    padding: 20px;
+    border-radius: 100%;
+    border: none;
+    font-size: 40px;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+}
+.bc{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    width: 30%;
+    height: 30%;
+    border-radius: 20px;
+    font-style: italic;
+    margin: 20px;
+    display: inline-block;
+    vertical-align: top;
+}
+h2 ,h5{
+    text-transform: capitalize;
+}
+#del{
+    background-color: pink;
+    border: none;
+    border: 10px;
+}
+#del:hover{
+    color: palevioletred;
+}
+#pop{
+    background-color: pink;
+    display: none;
+    padding: 40px;
+    width: 25%;
+    height: auto;
+    border-radius: 10%;
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    z-index: 2;
+    
+}
+.title,.aur,.des{
+    font-style:italic;
+}
+.tit,.aur1{
+    border: none;
+    background: transparent;
+    border-bottom: solid black 2px;
+    border-start-end-radius: 20px;
+    margin: 5px;
+    width: 100%;
+
+}
+.desc{
+    border: none;
+    background: transparent;
+    border-bottom: solid black 2px;
+    border-start-end-radius: 20px;
+    margin: 5px;
+    width: 100%;
+}
+#overlay{
+    background-color: black;
+    opacity: .8;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left:0;
+    display: none;
+    z-index: 1;
+}
+#bntadd,#bnt.reset{
+    background-color: silver;
+}
